@@ -9,6 +9,9 @@ export default {
         three: "#EFD595",
         four: "#EBEF95",
       },
+      fontFamily: {
+        Lato: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],
