@@ -29,7 +29,7 @@
 
 .hero {
   position: relative;
-  background: url(./images/hero1.jpg) no-repeat;
+  background: url(images/hero1.jpg) no-repeat;
   background-size: cover;
 }
 
