@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         Lato: ["Lato", "sans-serif"],
+        Phudu: ["Phudu", "cursive"],
       },
     },
   },
