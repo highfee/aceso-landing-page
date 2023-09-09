@@ -13,6 +13,9 @@ export default {
         Lato: ["Lato", "sans-serif"],
         Phudu: ["Phudu", "cursive"],
       },
+      gridTemplateColumns: {
+        "2/3": " 2fr 3fr",
+      },
     },
   },
   plugins: [],
