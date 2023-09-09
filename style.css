@@ -33,9 +33,9 @@
 }
 
 .hero.cut {
-  position: relative;
-  background: url(images/hero1.jpg) no-repeat;
-  background-size: cover;
+  /* position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 .container_block {
   margin-inline: 10% 5%;
