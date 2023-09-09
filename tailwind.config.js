@@ -17,7 +17,7 @@ export default {
         "2/3": " 2fr 3fr",
       },
       backgroundImage: {
-        hero: "url('./images/hero1.jpg')",
+        hero: "url('../images/hero1.jpg')",
       },
     },
   },
