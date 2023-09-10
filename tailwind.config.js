@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{html,js}"],
+  content: ["./index.html", "./contact.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -8,6 +8,7 @@ export default {
         two: "#EFB495",
         three: "#EFD595",
         four: "#EBEF95",
+        lime: "lime",
       },
       fontFamily: {
         Lato: ["Lato", "sans-serif"],
@@ -20,6 +21,7 @@ export default {
       backgroundImage: {
         hero: "url('../images/hero1.jpg')",
         "hero-mobile": "url('../images/hero-mobile.jpg')",
+        "concat-header": "url('../images/contact.jpeg')",
       },
     },
   },

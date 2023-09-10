@@ -4,6 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACESO | Contact</title>
+    <script type="module" src="/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
-  <body></body>
+  <body class="overflow-x-hidden font-Lato bg-one">
+    <section
+      class="md:max-w-[95%] max-w-[100vw] hero cut bg-red-900 isolate text-white pt-6 pb-20 bg-concat-header relative bg-cover bg-no-repeat overflow-hidden"
+    >
+      <div class="absolute inset-0 bg-black/70 -z-10"></div>
+      <header class="flex justify-between items-center md:px-20 pl-[10%]">
+        <div class="text-4xl">ACESO</div>
+        <div class="md:hidden items-center gap-4 text-lg font-[400] hidden">
+          <a href="">+234 9182 106 588</a>
+          <div class="border border-two px-6 py-2">
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+      </header>
+      <nav class="flex gap-4 md:gap-10 mt-5 text-white/80 md:px-20 pl-[10%]">
+        <div class="underline_link">
+          <a href="">Home</a>
+        </div>
+        <div class="underline_link">
+          <a href="">Services</a>
+        </div>
+        <div class="underline_link">
+          <a href="">About us</a>
+        </div>
+        <div class="underline_link md:hidden">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </nav>
+      <div class="container_block">
+        <section class="mt-16">
+          <h1
+            class="text-3xl md:text-5xl leading-[50px] md:leading-[70px] mb-8"
+          >
+            <span class="text-4xl md:text-6xl font-[700]">CONTACT US</span>
+          </h1>
+        </section>
+      </div>
+    </section>
+
+    <section class="bg-two text-gray-900">
+      <div class="container_block grid grid-cols-1 md:grid-cols-2 py-20 mt-2">
+        <div>
+          <p class="text-xl mb-3">CONTACT US</p>
+          <h1 class="text-4xl font-Phudu mb-3">
+            GET IN <span class="font-extrabold">TOUCH</span>
+          </h1>
+          <p>Grab a cup of coffe and have a chat with us</p>
+          <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="flex gap-3 items-center">
+              <ion-icon name="call-outline" class="text-5xl"></ion-icon>
+              <div>
+                <p class="text-2xl font-bold">Phone number</p>
+                <p class="text-lg">08032676212</p>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center">
+              <ion-icon name="mail-unread-outline" class="text-5xl"></ion-icon>
+              <div>
+                <p class="text-2xl font-bold">Email</p>
+                <p class="text-lg">aceso.healthandsafety@mail.com</p>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center">
+              <ion-icon name="location-outline" class="text-5xl"></ion-icon>
+              <div>
+                <p class="text-2xl font-bold">Office</p>
+                <p class="text-lg">
+                  Plots 23, E-W Road Rumukwurushe Opposite White-House Obio-akpo
+                  LGA Rivers State
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 md:mt-0">
+          <form action="">
+            <div class="flex gap-5 mb-3">
+              <input
+                type="text"
+                placeholder="Your name"
+                class="w-full rounded-md p-2 text-lg outline-lime/50"
+              />
+              <input
+                placeholder="Your email"
+                type="text"
+                class="w-full rounded-md p-2 px-1 text-lg outline-lime/50"
+              />
+            </div>
+            <input
+              type="text"
+              placeholder="Your subject"
+              class="w-full rounded-md p-2 text-lg outline-lime/50 mb-3"
+            />
+            <textarea
+              placeholder="Your message"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="w-full rounded-md p-2 text-lg outline-lime/50 mb-3"
+            ></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="py-20">
+      <p class="text-center text-3xl">FIND US ON GOOGLE</p>
+      <div id="map" class="mt-10 h-[600px] md:mx-[10%]">
+        <script src="/main.js"></script>
+      </div>
+    </div>
+  </body>
 </html>
