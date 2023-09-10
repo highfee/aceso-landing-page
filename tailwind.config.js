@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./contact.html", "./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./contact.html",
+    "./about.html",
+    "./src/**/*.{html,js}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -22,6 +27,7 @@ export default {
         hero: "url('../images/hero1.jpg')",
         "hero-mobile": "url('../images/hero-mobile.jpg')",
         "concat-header": "url('../images/contact.jpeg')",
+        "about-header": "url('../images/about1.jpg')",
       },
     },
   },
