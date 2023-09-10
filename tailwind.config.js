@@ -15,6 +15,7 @@ export default {
       },
       gridTemplateColumns: {
         "2/3": " 2fr 3fr",
+        autofill: "repeat(auto-fill, minmax(300px, 1fr))",
       },
       backgroundImage: {
         hero: "url('../images/hero1.jpg')",
