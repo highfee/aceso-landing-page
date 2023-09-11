@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        one: "#EF9595",
-        two: "#EFB495",
+        // one: "#EF9595",
+        // two: "#EFB495",
+        one: "#E6EBE0",
+        two: "#9BC1BC",
         three: "#EFD595",
         four: "#EBEF95",
         lime: "lime",
