@@ -51,6 +51,13 @@
   transform: rotate(-45deg);
   z-index: 4;
 }
+.services > div {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.services img {
+  max-width: 400px !important;
+}
 
 @media screen and (min-width: 1000px) {
   .hero.cut::after {
