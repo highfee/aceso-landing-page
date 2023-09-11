@@ -65,4 +65,7 @@
     transform: rotate(-45deg);
     z-index: 4;
   }
+  .services > div:nth-child(even) img {
+    order: 2;
+  }
 }
