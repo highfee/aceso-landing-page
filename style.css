@@ -45,7 +45,7 @@
   position: absolute;
   height: var(--size);
   aspect-ratio: 3;
-  background-color: #ef9595;
+  background-color: #e6ebe0;
   bottom: calc(var(--size) * -1);
   right: calc(var(--size) * -1);
   transform: rotate(-45deg);
@@ -59,7 +59,7 @@
     position: absolute;
     height: var(--size);
     aspect-ratio: 3;
-    background-color: #ef9595;
+    background-color: #e6ebe0;
     bottom: calc(var(--size) * -1);
     right: calc(var(--size) * -1);
     transform: rotate(-45deg);
