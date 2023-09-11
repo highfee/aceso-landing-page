@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./contact.html",
     "./about.html",
+    "./services.html",
     "./src/**/*.{html,js}",
   ],
   theme: {
