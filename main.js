@@ -9,6 +9,7 @@ document.addEventListener("scroll", (e) => {
     document.querySelector(".second_header").classList.add("fixed");
   } else {
     document.querySelector(".second_header").classList.remove("fixed");
+    document.querySelector(".navs").classList.remove("mobile");
   }
 });
 
