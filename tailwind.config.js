@@ -25,7 +25,7 @@ export default {
       gridTemplateColumns: {
         "2/3": " 2fr 3fr",
         "3/1": " 3fr 1.3fr",
-        autofill: "repeat(auto-fill, minmax(280px, 1fr))",
+        autofill: "repeat(auto-fit, minmax(280px, 1fr))",
       },
       backgroundImage: {
         hero: "url('../images/hero1.jpg')",

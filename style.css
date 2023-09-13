@@ -76,3 +76,21 @@
     order: 2;
   }
 }
+
+.testing > div:has(img) {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  overflow: hidden;
+}
+
+.testing > div:has(img) img {
+  /* height: 80%; */
+  width: 100% !important;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1400px) {
+  .testing > div:has(img) {
+    max-height: 500px;
+  }
+}

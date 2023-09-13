@@ -1,5 +1,9 @@
 import "./style.css";
 
+document.addEventListener("scroll", (e) => {
+  console.log(e);
+});
+
 var map = L.map("map", { zoom: 19, scrollWheelZoom: false }).setView(
   [4.878150611533037, 6.963034530882102],
   19
