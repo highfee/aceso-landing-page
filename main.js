@@ -1,7 +1,19 @@
 import "./style.css";
 
+if (document.documentElement.scrollTop < 200) {
+  document.querySelector(".second_header").classList.remove("fixed");
+}
+
 document.addEventListener("scroll", (e) => {
-  console.log(e);
+  if (document.documentElement.scrollTop > 500) {
+    document.querySelector(".second_header").classList.add("fixed");
+  } else {
+    document.querySelector(".second_header").classList.remove("fixed");
+  }
+});
+
+document.querySelector(".bar").addEventListener("click", () => {
+  document.querySelector(".navs").classList.toggle("mobile");
 });
 
 var map = L.map("map", { zoom: 19, scrollWheelZoom: false }).setView(
