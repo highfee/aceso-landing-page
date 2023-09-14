@@ -119,3 +119,7 @@
 .second_header {
   z-index: 10000 !important;
 }
+
+.backdrop {
+  backdrop-filter: blur(3px) !important;
+}
