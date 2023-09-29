@@ -33,7 +33,7 @@ export default {
       backgroundImage: {
         // hero: "url('../images/hero1.jpg')",
         hero: "url('../images/home-3.jpg')",
-        "hero-mobile": "url('../images/home-3.jpg')",
+        "hero-mobile": "url('../images/home-3-mobile.jpg')",
         // "hero-mobile": "url('../images/hero-mobile.jpg')",
         "concat-header": "url('../images/contact-new.jpg')",
         "about-header": "url('../images/about-10.jpg')",
