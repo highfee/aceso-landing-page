@@ -120,6 +120,16 @@
   z-index: 10000 !important;
 }
 
-.backdrop {
-  backdrop-filter: blur(3px) !important;
+@media screen and (min-width: 800px) {
+  .testing > div:has(ion-icon) p:last-of-type {
+    line-clamp: 8;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+  }
 }
+
+/* .backdrop {
+  backdrop-filter: blur(10px) !important;
+} */
